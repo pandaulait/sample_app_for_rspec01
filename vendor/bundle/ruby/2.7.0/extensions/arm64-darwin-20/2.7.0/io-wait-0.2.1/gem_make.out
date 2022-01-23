@@ -1,0 +1,18 @@
+current directory: /Users/panda/Desktop/unimal/rspec/rspec_test/vendor/bundle/ruby/2.7.0/gems/io-wait-0.2.1/ext/io/wait
+/Users/panda/.rbenv/versions/2.7.2/bin/ruby -I /Users/panda/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20220123-9627-1rmfw0y.rb extconf.rb
+checking for rb_io_wait()... no
+checking for sys/ioctl.h... yes
+checking for FIONREAD in sys/ioctl.h,sys/ioctl.h... yes
+creating Makefile
+
+current directory: /Users/panda/Desktop/unimal/rspec/rspec_test/vendor/bundle/ruby/2.7.0/gems/io-wait-0.2.1/ext/io/wait
+make "DESTDIR=" clean
+
+current directory: /Users/panda/Desktop/unimal/rspec/rspec_test/vendor/bundle/ruby/2.7.0/gems/io-wait-0.2.1/ext/io/wait
+make "DESTDIR="
+compiling wait.c
+linking shared-object io/wait.bundle
+
+current directory: /Users/panda/Desktop/unimal/rspec/rspec_test/vendor/bundle/ruby/2.7.0/gems/io-wait-0.2.1/ext/io/wait
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 wait.bundle ./.gem.20220123-9627-6sb8a5/io
